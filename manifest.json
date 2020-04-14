@@ -2,5 +2,13 @@
     "name": "Mom's HTML Generator",
     "version": "1.0",
     "description": "Takes an image from the web and converts it into usable HTML code.",
+    "permissions": ["declarativeContent", "tabs", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
     "manifest_version": 2
 }
