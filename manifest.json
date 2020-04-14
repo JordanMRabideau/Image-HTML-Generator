@@ -1,7 +1,7 @@
 {
     "name": "Mom's HTML Generator",
     "version": "1.0",
-    "description": "Takes an image from the web and converts it into usable HTML code.",
+    "description": "Takes a product from buttonsgaloreandmore.com and converts it into usable HTML code providing a link to the store and an image of the product. Takes in the image address as an argument.",
     "permissions": ["declarativeContent", "tabs", "storage"],
     "background": {
         "scripts": ["background.js"],
