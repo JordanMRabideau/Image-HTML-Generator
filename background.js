@@ -4,6 +4,8 @@ chrome.runtime.onInstalled.addListener(function(tab) {
       console.log(tab.url);
     });
 
+    
+
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
         chrome.declarativeContent.onPageChanged.addRules([{
           conditions: [
